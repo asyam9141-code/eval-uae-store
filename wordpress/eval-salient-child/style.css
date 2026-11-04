@@ -1,0 +1,50 @@
+/*
+Theme Name: Salient Child — EVAL UAE Luxury Storefront
+Theme URI: https://eval-uae.com
+Description: Dedicated luxury child theme for EVAL UAE built on top of Salient. Preserves existing Salient settings, WPBakery pages, and WooCommerce databases while activating EVAL UAE's quiet luxury styling and headless bridge.
+Author: EVAL UAE Design Team
+Author URI: https://eval-uae.com
+Template: salient
+Version: 1.0.0
+Text Domain: eval-salient-child
+*/
+
+:root {
+  --eval-primary-black: #090909;
+  --eval-royal-gold: #C8A44D;
+  --eval-light-gold: #D6B866;
+  --eval-pure-white: #FFFFFF;
+}
+
+/* Luxury typography styling */
+body, .salient-nav {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--eval-primary-black);
+  color: var(--eval-pure-white);
+}
+
+h1, h2, h3, h4, .font-heading {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+html[dir="rtl"] body,
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3 {
+  font-family: 'Alexandria', sans-serif;
+}
+
+/* EVAL Gold accents */
+.eval-gold {
+  color: var(--eval-royal-gold);
+}
+
+.eval-gold-bg {
+  background-color: var(--eval-royal-gold);
+  color: var(--eval-primary-black);
+}
+
+.eval-border-gold {
+  border-color: rgba(200, 164, 77, 0.3);
+}

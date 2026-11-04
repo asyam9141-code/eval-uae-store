@@ -1,0 +1,6 @@
+{
+  "name": "EVAL UAE — Luxury Accessories & Personalized Gifts",
+  "description": "Production-ready luxury storefront for EVAL UAE with seamless WooCommerce integration, Arabic/English bilingual experience, live personalization preview, and UAE checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

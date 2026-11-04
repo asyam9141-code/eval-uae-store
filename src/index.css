@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary-black: #090909;
+    --color-royal-gold: #C8A44D;
+    --color-light-gold: #D6B866;
+    --color-pure-white: #FFFFFF;
+  }
+
+  body {
+    background-color: #090909;
+    color: #FFFFFF;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* Arabic Typography */
+  html[dir="rtl"] body {
+    font-family: 'Alexandria', 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  /* English Headings */
+  h1, h2, h3, .font-heading {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  /* Arabic Headings */
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] .font-heading {
+    font-family: 'Alexandria', system-ui, sans-serif;
+    letter-spacing: 0;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-arabic {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.font-calligraphy {
+  font-family: 'Amiri', 'Alexandria', serif;
+}
+
+.font-ruqaa {
+  font-family: 'Aref Ruqaa', cursive, serif;
+}
+
+/* Luxury Gold Text Gradient (Subtle & high-end, never cheap) */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #E6D08D 0%, #C8A44D 50%, #B8923A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Hairline Gold Border */
+.border-gold-subtle {
+  border-color: rgba(200, 164, 77, 0.2);
+}
+
+.border-gold-hover:hover {
+  border-color: rgba(200, 164, 77, 0.5);
+}
+
+/* Custom Scrollbar for Luxury Dark Aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090909;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A44D;
+}
+
